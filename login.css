@@ -1,0 +1,70 @@
+body{
+    background-color: #d3d3d3;
+    text-align: center;
+    /*font-family: "Calibre","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;*/
+}
+
+.title{
+    font-family: 'Monoton', cursive;
+    font-weight: 400;
+    font-size:70px;
+    color: black;
+    margin: 10px;
+}
+
+.column-2 {
+    float: left;
+    width: 50%;
+}
+
+
+.row{
+    padding-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+input[type=text], input[type="password"], input[type="email"]{
+    border: solid #343a40 1px;
+    height: 40px;
+    width: 90%;
+    border-radius: 3px;
+    padding:4px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+
+h2, label, .instructions{
+    font-size: large;
+}
+
+input[type=submit]{
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #ba181b;
+    margin-bottom: 15px;
+    height: 40px;
+    width: 80%;
+    border: solid #121518 1px;
+    border-radius: 3px;
+}
+
+input[type=submit]:hover{
+    background-color: #161a1d;
+    color:white;
+}
+
+@media screen and (max-width:800px){
+    .column-2{
+        width:100%;
+    }
+}

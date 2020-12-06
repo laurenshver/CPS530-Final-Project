@@ -1,0 +1,139 @@
+body{
+    text-align: center;
+    background: #f5f3f4;
+    font-family: "Calibre","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+    font-weight: 100;
+    margin:0;
+}
+
+.page-title{
+    font-family: "Calibre","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+    margin: 0;
+    padding: 40px;
+    font-weight: 100;
+}
+
+
+.section-title{
+    font-weight: 600;
+    line-height: 1;
+    font-size: 15px;
+    padding: 25px 0;
+    background: #fff;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+}
+
+.element-title, label{
+    font-weight: 600;
+    line-height: 1;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.section-details{
+    padding: 10px;
+    margin-top: 0;
+    background: white;
+    text-align: left;
+}
+
+.edit-button{
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: small; 
+    text-align: right;
+}
+
+.edit-button:hover{
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: small; 
+    text-align: right;
+    text-decoration: underline;
+    text-decoration-color: #ba181b;
+}
+
+button, input[type=submit]{
+    font-weight: 200;
+    background-color: white;
+    padding: 6px;
+    border: solid black 2px;
+    border-radius: 3px;
+}
+
+button:hover, input[type=submit]:hover{
+    font-weight: 200;
+    background-color: #ba181b;
+    padding: 6px;
+    color:white;
+    border-radius: 3px;
+}
+
+#address-form, #credit-form{
+    display: none;
+}
+
+input[type=text]{
+    border: solid black 1px;
+    height: 40px;
+    width: 90%;
+    border-radius: 3px;
+}
+
+#top-link:visited{
+    color: black;
+    font-weight: 600;
+}
+
+#top-link:hover{
+    text-decoration: underline;
+    text-decoration-color: #ba181b;
+}
+
+.column-3 {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+.sub-column-2 {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+@media screen and (max-width:500px){
+    .section-details, .edit-button{
+          font-size: small;
+    }
+
+    .element-title{
+          font-size: small;
+    }
+
+    .section-title{
+        font-size: small;
+    }
+
+    .column-3{
+        width: 100%;
+    }
+    
+    input[type=text]{
+    height: 30px;
+    }
+
+}

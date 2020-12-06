@@ -1,0 +1,87 @@
+.column-4 {
+    float: left;
+    width: 25%;
+    text-align: center;
+    height: 100px;
+  }
+
+.column-3 {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+.sub-column-2 {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+#icons{
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    color: #ba181b;
+}
+
+.charges-names{
+    line-height: 1;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 40%;
+    text-align: left;
+}
+
+.charges-amount{
+    font-weight: bold;
+    line-height: 1;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-right: 40%;
+    text-align: right;
+}
+
+.tracking-button{
+    border: solid black 1px;
+    padding: 8px;
+    border-radius: 2px;
+    margin:10px;
+    text-align: center;
+}
+
+.tracking-button:hover{
+    background-color: #ba181b;
+    color: white;
+}
+
+.order-status{
+    margin:0;
+}
+
+@media screen and (max-width:800px) and (min-width:600px){
+    .section-details{
+        font-size: small;
+    }
+
+    .element-title{
+        font-size: small;
+    }
+
+}
+
+@media screen and (max-width:600px){
+    .column-3{
+        width: 100%;
+    }
+
+    .column-4{
+        width: 50%;
+    }
+}
