@@ -1,0 +1,54 @@
+.column {
+    float: left;
+  }
+  
+  .left, .right {
+    width: 5%;
+    text-align:center;
+    padding-top:40px;
+  }
+
+  .middle {
+    width: 88%;
+  }
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input[type="radio"]{
+    transform:scale(2);
+    
+}
+
+/*responsiveness*/
+@media screen and (min-width:500px) and (max-width:800px){
+    .left, .right {
+        width: 20%;
+      }
+
+      .middle {
+          width: 58%;
+      }
+
+}
+
+@media screen and (max-width:500px){
+    .section-details{
+          font-size: small;
+    }
+
+    .element-title{
+          font-size: small;
+    }
+
+    .left, .right {
+        width: 20%;
+      }
+
+      .middle {
+          width: 58%;
+      }
+}

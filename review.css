@@ -1,0 +1,52 @@
+html,body,.wrapper{
+    background: #f7f7f7;
+}
+.container{
+    border: none;
+}
+.input-sm, .form-horizontal .form-group-sm .form-control{
+    border-radius: 1px;
+}
+
+.panel-info {
+    border-color: #999;
+}
+
+.panel-heading {
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+}
+.panel {
+    border-radius: 1px;
+}
+.panel-info > .panel-heading {
+    color: #eee;
+    border-color: #999;
+}
+.panel-info > .panel-heading {
+    background-image: linear-gradient(to bottom, #555 0px, #888 100%);
+}
+
+hr {
+    border-color: #999 -moz-use-text-color -moz-use-text-color;
+}
+
+hr{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+input[type=submit]{
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #ba181b;
+    margin-bottom: 15px;
+    height: 40px;
+    width: 80%;
+    border: solid #121518 1px;
+    border-radius: 3px;
+}
+
+input[type=submit]:hover{
+    background-color: #ba181b;
+    color:white;
+}
